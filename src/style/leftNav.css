@@ -1,0 +1,9 @@
+.leftNav.accordion {
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+  
+.leftNav a {
+    color: #333;
+}

@@ -1,0 +1,37 @@
+.row.ml-auto.navbar-nav {
+    padding-right: 8%;
+}
+
+.topNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topNav a {
+  color: rgb(152, 29, 29);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.topNav a:hover {
+  color: #000;
+}
+
+.topNav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 100ms;
+}
+
+.topNav a:hover::before {
+  width: 100%;
+}
